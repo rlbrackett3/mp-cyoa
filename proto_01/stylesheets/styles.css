@@ -1,0 +1,252 @@
+html { 
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%; 
+  box-sizing: border-box;
+} 
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  min-width: 1024px;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+/*###########################*/
+/*HEADER*/
+/*###########################*/
+
+header#header {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top:0;
+  background: white;
+  z-index: 99;
+}
+
+header#header a,
+header#header a:link {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  font-family: genathlight_italic;
+  font-size: 2.1rem;
+  font-style: italic;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+header#header a:hover {
+  color: blue;
+}
+
+header#header a:visited {
+  color: black;
+}
+
+
+/*###########################*/
+/*COTENT :: INDEX*/
+/*###########################*/
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 50px;
+  position: relative;
+  float: left;
+}
+
+.mission {
+  width: 100%;
+  height: auto;
+  min-height: auto;
+  position: absolute;
+  top: 40vh;
+  left: 0;
+}
+
+.mission h1 {
+  width: 100%;
+  height: auto;
+  margin: 1vh auto;
+  font-family: Genath-BoldIta;
+  font-size: 7.5vmax;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.project-cloud-top,
+.project-cloud-bottom {
+  width: 100vw;
+  height: 35vh;
+  position: relative;
+  float: left;
+}
+
+.p-cloud {
+  width: 100vw;
+  height: 95vh;
+  position: relative;
+  float: left;
+}
+
+.p-cloud span {
+  width: auto;
+  height: auto;
+  padding: 5px;
+  /*display: inline-block;*/
+}
+
+.p-cloud span a:link,
+.p-cloud span a:visited {
+  font-family: genathlight_italic;
+  font-size: 1.0rem;
+  font-style: italic;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  /*display: block;*/
+}
+
+.p-cloud span a:hover {
+  color: blue;
+}
+
+.p-cloud span.project-w1 {
+  padding: 3vw 1vw;
+}
+.p-cloud span.project-w1 a {
+  font-size: 1.5rem;
+}
+
+.p-cloud span.project-w2 {
+  padding: 5vw 3vw;
+}
+.p-cloud span.project-w2 a {
+  font-size: 2.25rem;
+}
+
+.p-cloud span.project-w3 {
+  padding: 10vw 5vw;
+}
+.p-cloud span.project-w3 a {
+  font-size: 2.75rem;
+}
+
+
+/*###########################*/
+/*INFO*/
+/*###########################*/
+.info,
+.info-top,
+.info-bottom {
+  width: 100vw;
+  height: 30vh;
+  position: relative;
+  float: left;
+}
+
+.info .column {
+  width: 33vw;
+  height: auto;
+  position: relative;
+  float: left;
+}
+
+.info .column .bio-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin: auto;
+}
+
+.info .column .bio-image img {
+  width: 110px;
+  height: 110px;
+  margin: 10px auto;
+  border-radius: 50%;
+  display: block;
+}
+
+.info .column .social-links {
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin: 0px auto 20px auto;
+}
+
+.info .column .social-links .social-wrapper {
+  width: 190px;
+  /*width: auto;*/
+  /*min-width: 180px;*/
+  height: 30px;
+  margin: auto;
+}
+
+.info .column .social-links a {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.info .column .social-links a img{
+  width: auto;
+  height: auto;
+  width: 30px;
+  height: 30px;
+  margin: 0px 2px;
+}
+
+.info .column p.bio {
+  width: 75%;
+  height: auto;
+  margin: 10px auto;
+  font-family: genathlight;
+  font-size: 1.25rem;
+  line-height: 2.0rem;
+  letter-spacing: 0.075rem;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+}
+
+
+/*###########################*/
+/*FOOTER*/
+/*###########################*/
+
+footer#footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom:0;
+  background: white;
+  z-index: 99;
+}
+
+footer#footer p {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  font-family: genathlight_italic;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
